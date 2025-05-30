@@ -61,33 +61,4 @@ int main()
 
 }
 
-   /* NUBAH'S Implementation of create card--------
-    char name[MAX_NAME_LENGTH];
-    char description[MAX_DESCRIPTION_LENGTH];
 
-    printf("Do you want to create a new card? (yes/no): ");
-    char choice[4];
-    scanf("%s", choice);
-
-    if (strcmp(choice, "yes") == 0) {
-        printf("Enter the card name:\n");
-        scanf("%s", name);
-
-        while (getchar() != '\n');
-
-        printf("Enter the card description:\n");
-        fgets(description,sizeof(description),stdin);
-
-        CARD* myCard = create_Card(name, description);
-
-        printf("\nCard created successfully!\n");
-        printf("Card Name: %s\n", myCard->name);
-        printf("Card Description: %s\n", myCard->description);
-
-
-        free(myCard);
-    } else {
-        printf("No card created.\n");
-    }
-
-    return 0;*/
